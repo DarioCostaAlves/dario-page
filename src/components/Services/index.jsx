@@ -1,6 +1,6 @@
 import './styles.css';
 export default function Services() {
   return (
-    <div>Services</div>
+    <section id="services">Services</section>
   )
 }
