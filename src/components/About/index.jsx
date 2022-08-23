@@ -36,7 +36,7 @@ export default function About() {
             </article>
           </div>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, neque deserunt! Officia tempora fuga dolorum illum alias nihil quae beatae architecto magnam, repellat quo eveniet reprehenderit voluptas, ex suscipit minus.</p>
-          <a href="#contact" className="btn btn-primary">LEt's Talk</a>
+          <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>
     </section>
