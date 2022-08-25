@@ -38,7 +38,7 @@ export default function Portfolio() {
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
                 <a href={playStore} className="btn">Apple Store</a>
-                <a href={appStore} className="btn" target="_blank" className="btn btn-primary">Play store</a>          
+                <a href={appStore} target="_blank" className="btn btn-primary">Play store</a>          
               </div>          
             </article>
           )

@@ -67,7 +67,8 @@ section > h2, section > h5{
 }
 
 section > h2 {
-    columns: var(--color-primary);
+    color: var(--color-primary);
+    margin-bottom: 3rem;
 }
 
 .text-light{
