@@ -35,7 +35,10 @@ export default function About() {
               <small>3 completed</small>
             </article>
           </div>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, neque deserunt! Officia tempora fuga dolorum illum alias nihil quae beatae architecto magnam, repellat quo eveniet reprehenderit voluptas, ex suscipit minus.</p>
+          <p>
+            Portuguese, currently studying Information, Web and Technologies, with a large appetite to learn about this beautiful area.
+            Few months of experience on a small portuguese company after the first internship.
+          </p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>

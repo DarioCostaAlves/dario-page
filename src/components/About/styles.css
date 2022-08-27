@@ -31,11 +31,12 @@
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
+    transition: var(--transition);
 }
 
 .about__card:hover{
-    border: 1px solid var(--color-primary);
     background: transparent;
+    border-color: var(--color-bg-variant);
     cursor: default;
 }
 

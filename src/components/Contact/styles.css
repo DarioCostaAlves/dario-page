@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
+    padding-bottom: 4rem;
 }
 
 .contact__options{
@@ -63,6 +64,11 @@ input, textarea{
         grid-template-columns: 1fr;
         gap: 2rem;
    }
+
+   .container.contact__container > form > button{
+    width: 50%;
+    align-self: center;
+}
 }
 
 /* Media devices (small desktops, max 600px) */

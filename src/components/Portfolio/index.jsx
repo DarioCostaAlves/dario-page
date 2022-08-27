@@ -11,15 +11,6 @@ const data = [
     appStore: 'https://itunes.apple.com/',
     language: 'React Native',
   },
-  {
-    id: 2,
-    image: IMG1,
-    title: 'Lagos Food Delivery',
-    github: 'https://github.com/',
-    playStore: 'https://play.google.com/',
-    appStore: 'https://itunes.apple.com/',
-    language: 'React Native',
-  },  
 ];
 export default function Portfolio() {
   return (

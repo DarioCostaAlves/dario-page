@@ -1,5 +1,6 @@
 import './styles.css';
 import AVTR1 from '../../assets/images/me_smile.png';
+import AVTR2 from '../../assets/images/peppa.png';
 // import Swiper core and required modules
 import { Navigation, Pagination } from 'swiper';
 
@@ -18,9 +19,9 @@ const data = [
     review: 'Yes, I can say that I am very satisfied with my service. Why Am I reviewed myself? I dont know.'
   },
   {
-    img: AVTR1,
-    name: 'Dário Costa Alves',
-    review: 'Yes, I can say that I am very satisfied with my service. Why Am I reviewed myself? I dont know.'
+    img: AVTR2,
+    name: 'Peppa Pig',
+    review: 'He is very bad. 0 stars.'
   },
 ]
 export default function Testimonials() {

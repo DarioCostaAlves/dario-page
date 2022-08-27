@@ -14,24 +14,20 @@ export default function Services() {
           <ul className="service__list">
             <li>
               <RiCheckDoubleLine className="service__list-icon"/>
-              <p>Lorem, ipsum dolor.</p>
+              <p>IOS App Development.</p>
             </li>
             <li>
               <RiCheckDoubleLine className="service__list-icon"/>
-              <p>Lorem, ipsum dolor.</p>
+              <p>Android App Development.</p>
             </li>
             <li>
               <RiCheckDoubleLine className="service__list-icon"/>
-              <p>Lorem, ipsum dolor.</p>
+              <p>Cross-Platform App Development.</p>
             </li>
             <li>
               <RiCheckDoubleLine className="service__list-icon"/>
-              <p>Lorem, ipsum dolor.</p>
-            </li>
-            <li>
-              <RiCheckDoubleLine className="service__list-icon"/>
-              <p>Lorem, ipsum dolor.</p>
-            </li>
+              <p>Responsive Development.</p>
+            </li>            
           </ul>
         </article>
         {/* End of Mobile Development */}
@@ -42,54 +38,19 @@ export default function Services() {
           <ul className="service__list">
             <li>
               <RiCheckDoubleLine className="service__list-icon"/>
-              <p>Lorem, ipsum dolor.</p>
+              <p>Frontend.</p>
             </li>
             <li>
               <RiCheckDoubleLine className="service__list-icon"/>
-              <p>Lorem, ipsum dolor.</p>
+              <p>Backend.</p>
             </li>
             <li>
               <RiCheckDoubleLine className="service__list-icon"/>
-              <p>Lorem, ipsum dolor.</p>
-            </li>
-            <li>
-              <RiCheckDoubleLine className="service__list-icon"/>
-              <p>Lorem, ipsum dolor.</p>
-            </li>
-            <li>
-              <RiCheckDoubleLine className="service__list-icon"/>
-              <p>Lorem, ipsum dolor.</p>
-            </li>
+              <p>Peppa Pig.</p>
+            </li>            
           </ul>
         </article>
-        {/* End of Web Development */}
-        <article className="service">
-          <div className="service__head">
-            <h3>Web Development</h3>
-          </div>
-          <ul className="service__list">
-            <li>
-              <RiCheckDoubleLine className="service__list-icon"/>
-              <p>Lorem, ipsum dolor.</p>
-            </li>
-            <li>
-              <RiCheckDoubleLine className="service__list-icon"/>
-              <p>Lorem, ipsum dolor.</p>
-            </li>
-            <li>
-              <RiCheckDoubleLine className="service__list-icon"/>
-              <p>Lorem, ipsum dolor.</p>
-            </li>
-            <li>
-              <RiCheckDoubleLine className="service__list-icon"/>
-              <p>Lorem, ipsum dolor.</p>
-            </li>
-            <li>
-              <RiCheckDoubleLine className="service__list-icon"/>
-              <p>Lorem, ipsum dolor.</p>
-            </li>
-          </ul>
-        </article>
+        {/* End of Web Development */}        
       </div>
     </section>
   )
