@@ -1,7 +1,21 @@
 import './styles.css';
+import {useRef} from 'react';
 import{MdOutlineMailOutline} from 'react-icons/md';
 import{BsLinkedin, BsWhatsapp} from 'react-icons/bs';
+//EmailJS
+import emailjs from 'emailjs-com';
 export default function Contact() {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_ghpux1a', 'template_w2hdtu6', form.current, '7-g5sFc4iab-5u2YD')
+          
+    e.target.reset();
+  };
+
   return (
     <section id="contact">      
       <h5>Get In Touch</h5>
@@ -28,7 +42,7 @@ export default function Contact() {
             <a href="https://wa.me/+351966514109?text=Hi Dário" target="_blank">Send a message</a>            
           </article>
         </div>
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Full Name' required/>
           <input type="email" name='email' placeholder='Your Email' required/>
           <textarea name="message" placeholder='Message' rows="8" required></textarea>
