@@ -74,5 +74,14 @@ header .container{
 
    .header__socials, .scroll__down{
     display: none;
-   }
+   }   
+}
+
+@media (max-width: 600px){
+    .me{
+        width: 20rem;
+        height: 25rem;
+        left: calc(50% - 10rem);
+        margin-top: 2rem;
+    }
 }

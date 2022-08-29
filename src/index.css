@@ -124,11 +124,14 @@ img{
 }
 
 /* Small devices (Small desktops, max 600px) */
-@media (max-width: 1024px){
+@media (max-width: 600px){
     .container{
         width: var(--container-width-sm);
     }
     section > h2{
         margin-bottom: 2rem;
+    }
+    h1{
+        font-size: 1.8rem;
     }
 }
